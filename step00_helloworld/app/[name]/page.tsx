@@ -1,12 +1,3 @@
-
-export default function GiveName({ params, searchParams }: {
-    params: { name: string },
-    searchParams: { id: string },
-  }) {
-    
-      return (
-        <div>
-              My name is {params.name}.
-        </div>
-      )
-    }
+export default function GiveName({ params }: { params: { name: string } }) {
+  return <div>My name is {params.name}.</div>;
+}

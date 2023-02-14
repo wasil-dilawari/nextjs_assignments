@@ -9,14 +9,13 @@ import {
   UnorderedList,
 } from "@chakra-ui/react";
 import React from "react";
+import Footer from "src/components/Footer";
 import Header from "src/components/Header";
-import MainMenu from "src/components/Menu";
 
 export default function Courses() {
   return (
     <>
       <Header />
-      <MainMenu />
       <Heading>Courses</Heading>
       <br />
       <Heading>Program of Studies</Heading>
@@ -313,6 +312,7 @@ export default function Courses() {
           </Link>
         </ListItem>
       </UnorderedList>
+      <Footer />
     </>
   );
 }

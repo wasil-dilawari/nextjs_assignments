@@ -1,18 +1,6 @@
 "use client";
 
-import {
-  Box,
-  Container,
-  Flex,
-  Heading,
-  Highlight,
-  HStack,
-  ListItem,
-  SimpleGrid,
-  Spacer,
-  Text,
-  UnorderedList,
-} from "@chakra-ui/react";
+import { Container, Heading, SimpleGrid, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import React from "react";
 import { AdilCard, DaniyalCard, HiraCard, ZiaCard } from "src/components/Cards";
@@ -26,13 +14,12 @@ export default function AboutUs() {
       <Container py="4" maxW="95%" color="gray.800">
         <Heading size="lg">The Program in a Nutshell:</Heading>
         <Heading size="xl" color="red.500" mt="-1.5">
-          {" "}
           Earn While You Learn
         </Heading>
         <Text textAlign="justify" pt="2">
           In this brand-new type of curriculum, students will learn how to make
           money and boost exports in the classroom and will begin doing so
-          within six months of the program's beginning. It resembles a cross
+          within six months of the program&aposs beginning. It resembles a cross
           between a corporate venture and an educational project.
         </Text>
         <Heading size="lg" pt="6">

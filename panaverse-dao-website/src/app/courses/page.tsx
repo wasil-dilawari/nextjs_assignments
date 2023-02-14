@@ -235,7 +235,8 @@ export default function Courses() {
             href="https://content.techgig.com/hiring/top-5-metaverse-jobs-that-will-rule-the-future-of-tech-industry/articleshow/87581325.cms"
             target="_blank"
           >
-            Top 5 'Metaverse' jobs that will rule the future of tech industry
+            Top 5 &aposMetaverse&apos jobs that will rule the future of tech
+            industry
           </Link>
         </ListItem>
         <ListItem>
@@ -260,7 +261,7 @@ export default function Courses() {
             target="_blank"
           >
             The Metaverse, Blockchain Gaming, and NFTs: Navigating the
-            Internet's Uncharted Waters
+            Internet&aposs Uncharted Waters
           </Link>
         </ListItem>
         <ListItem>

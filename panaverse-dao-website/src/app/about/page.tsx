@@ -12,6 +12,7 @@ export default function AboutUs() {
       <Header />
       <MainMenu />
       <Heading>About Us</Heading>
+      <br />
       <Text>
         <p>
           The internet is without a doubt the most important technological
@@ -40,19 +41,17 @@ export default function AboutUs() {
             Reference
           </Link>
         </p>
-      </Text>
-      <Text>
-        <Heading>The Program in a Nutshell: Earn While You Learn</Heading>
-      </Text>
+      </Text>{" "}
+      <br />
+      <Heading>The Program in a Nutshell: Earn While You Learn</Heading>
       <Text>
         In this brand-new type of curriculum, students will learn how to make
         money and boost exports in the classroom and will begin doing so within
         six months of the program's beginning. It resembles a cross between a
         corporate venture and an educational project.
-      </Text>
-      <Text>
-        <Heading>Our Team</Heading>
-      </Text>
+      </Text>{" "}
+      <br />
+      <Heading>Our Team</Heading>
       <Text>Zia Khan</Text>
       <Text>Daniyal Nagori</Text>
       <Text>Adil Altaf</Text>

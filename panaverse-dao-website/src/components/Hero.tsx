@@ -39,7 +39,7 @@ export default function Hero() {
             styles={{
               px: "2",
               // py: "1",
-              rounded: "2xl",
+              rounded: { base: "lg", md: "2xl" },
               bg: "red.600",
               color: "gray.100",
             }}
@@ -70,6 +70,8 @@ export default function Hero() {
               color: "gray.50",
             }}
             rightIcon={<ArrowForwardIcon />}
+            as={"a"}
+            href={"/courses"}
           >
             Learn More
           </Button>

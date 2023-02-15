@@ -1,5 +1,6 @@
 "use client";
 
+import { ArrowForwardIcon, CheckCircleIcon, CheckIcon } from "@chakra-ui/icons";
 import {
   Text,
   Box,
@@ -12,10 +13,21 @@ import {
   Button,
   Flex,
   Divider,
+  SimpleGrid,
+  Stack,
+  HStack,
+  Icon,
 } from "@chakra-ui/react";
 import React from "react";
+import Card_Box from "./Card_Box";
 
 export default function MainPageContent() {
+  const Features = [
+    "Product Ownership",
+    "Global Marketing by Panaverse DAO",
+    "Boosting Economy",
+    "Freelancing",
+  ];
   return (
     <Container maxW="95%" color="gray.700" textAlign="justify">
       <Box
@@ -81,82 +93,144 @@ export default function MainPageContent() {
 
       -------------------------
 
+       */}
+      <Box mt={14} width="100%" p={4} borderWidth="2px" borderColor="red.600">
+        <Grid
+          templateColumns={{
+            base: "repeat(1, 1fr)",
+            sm: "repeat(2, 1fr)",
+            md: "repeat(2, 1fr)",
+          }}
+          gap={1}
+        >
+          <GridItem colSpan={1}>
+            <VStack alignItems="flex-start" spacing="20px">
+              <chakra.h2
+                fontSize={{ base: "2xl", md: "3xl" }}
+                fontWeight="700"
+                textAlign="left"
+                color="red.600"
+              >
+                Program of Studies
+              </chakra.h2>
+              <Button
+                variant="outline"
+                size={{ base: "sm", md: "md" }}
+                colorScheme={"black"}
+                color="red.600"
+                rounded={"full"}
+                _hover={{
+                  bg: "red.600",
+                  color: "gray.50",
+                }}
+                rightIcon={<ArrowForwardIcon />}
+                as={"a"}
+                href={"/courses"}
+              >
+                Learn More
+              </Button>
+            </VStack>
+          </GridItem>
+          <GridItem>
+            <Flex>
+              <chakra.p>
+                The first three quarters are shared by all specialties and are
+                dedicated to studying Object-Oriented Programming and
+                cutting-edge Full-Stack Web 2.0 development The graduates of
+                this program will own products (Full-Stack App Templates, AR and
+                VR Experiences, and APIs) that are marketed globally by the
+                Panaverse DAO and, if they like, will also be able to start off
+                by offering services at a rate of $50 per hour ($96,000 per
+                year).
+              </chakra.p>
+            </Flex>
+          </GridItem>
+        </Grid>
+        <Divider mt={4} mb={4} />
+        <SimpleGrid
+          // mt="2"
+          // px="2"
+          spacing={4}
+          textAlign="center"
+          minChildWidth="200px"
+        >
+          <Card_Box
+            heading={"Quarter 1"}
+            text={"Object-Oriented Programming using TypeScript"}
+          />
+          <Card_Box
+            heading={"Quarter 2"}
+            text={
+              "Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13"
+            }
+          />
+          <Card_Box
+            heading={"Quarter 3"}
+            text={
+              "Dollar making Bootcamp - Full-Stack Templates and API Product Development"
+            }
+          />
+          <Card_Box
+            heading={"Quarter 4 & 5"}
+            text={
+              "Web 3.0 (Blockchain), Metaverse, AI, Cloud-Native, Genomics & IoT Specialization"
+            }
+          />
+        </SimpleGrid>
+      </Box>
+      {/* 
+
+      -------------------------
 
        */}
-      <Container>
-        <Box as={Container} maxW="7xl" mt={14} p={4}>
-          <Grid
-            templateColumns={{
-              base: "repeat(1, 1fr)",
-              sm: "repeat(2, 1fr)",
-              md: "repeat(2, 1fr)",
-            }}
-            gap={4}
+      <Box
+        mt="14"
+        bgColor="gray.100"
+        p="2"
+        rounded={{ base: "xl", md: "2xl" }}
+        boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
+        width="100%"
+      >
+        <Stack spacing={2} as={Container} maxW="100%" textAlign={"justify"}>
+          <Box textAlign="center" pt="2">
+            <CheckCircleIcon
+              textAlign="center"
+              boxSize={"50px"}
+              color={"green.500"}
+            />
+          </Box>
+          <Heading fontSize={"3xl"} textAlign="center">
+            The Outcome for Participants of the Program
+          </Heading>
+          <Text color={"gray.600"}>
+            As a graduate of this program, you will own valuable products such
+            as Full-Stack App Templates, AR and VR Experiences, and APIs that
+            are marketed globally by the Panaverse DAO. You will also have the
+            opportunity to offer your services at a rate of $50 per hour,
+            providing a path to financial stability while contributing to the
+            growth of Pakistan's software exports.
+          </Text>
+        </Stack>
+
+        <Container maxW="100%" mt={4}>
+          <SimpleGrid
+            columns={{ base: 1, md: 2, lg: 4 }}
+            spacing={4}
+            textAlign="left"
           >
-            <GridItem colSpan={1}>
-              <VStack alignItems="flex-start" spacing="20px">
-                <chakra.h2 fontSize="3xl" fontWeight="700">
-                  Medium length title
-                </chakra.h2>
-                <Button colorScheme="green" size="md">
-                  Call To Action
-                </Button>
-              </VStack>
-            </GridItem>
-            <GridItem>
-              <Flex>
-                <chakra.p>
-                  Provide your customers a story they would enjoy keeping in
-                  mind the objectives of your website. Pay special attention to
-                  the tone of voice.
-                </chakra.p>
-              </Flex>
-            </GridItem>
-          </Grid>
-          <Divider mt={12} mb={12} />
-          <Grid
-            templateColumns={{
-              base: "repeat(1, 1fr)",
-              sm: "repeat(2, 1fr)",
-              md: "repeat(4, 1fr)",
-            }}
-            gap={{ base: "8", sm: "12", md: "16" }}
-          >
-            <Card_Box
-              heading={"First Feature"}
-              text={"Short text describing one of you features/service"}
-            />
-            <Card_Box
-              heading={"Second Feature"}
-              text={"Short text describing one of you features/service"}
-            />
-            <Card_Box
-              heading={"Third Feature"}
-              text={"Short text describing one of you features/service"}
-            />
-            <Card_Box
-              heading={"Fourth Feature"}
-              text={"Short text describing one of you features/service"}
-            />
-          </Grid>
-        </Box>
-      </Container>
+            {Features.map((feature) => (
+              <HStack key={feature} align={"top"}>
+                <Box color={"green.500"} px={2}>
+                  <Icon as={CheckCircleIcon} boxSize="5" />
+                </Box>
+                <VStack align={"start"}>
+                  <Text fontWeight={600}>{feature}</Text>
+                </VStack>
+              </HStack>
+            ))}
+          </SimpleGrid>
+        </Container>
+      </Box>
     </Container>
   );
 }
-
-interface CardProps {
-  heading: string;
-  text: string;
-}
-
-const Card_Box = ({ heading, text }: CardProps) => {
-  return (
-    <GridItem>
-      <chakra.h3 fontSize="xl" fontWeight="600">
-        {heading}
-      </chakra.h3>
-      <chakra.p>{text}</chakra.p>
-    </GridItem>
-  );
-};

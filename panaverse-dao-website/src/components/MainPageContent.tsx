@@ -45,16 +45,16 @@ export default function MainPageContent() {
         </Heading>
         <Text>
           Web 3.0 has the potential to change the internet as we know it
-          forever. You're still early in catching the trend and building your
-          first blockchain application, acquiring the skills to get a high-
+          forever. You&apos;re still early in catching the trend and building
+          your first blockchain application, acquiring the skills to get a high-
           paying job, or creating your own web 3.0 projects that can make you
           money. In Web 2.0 all the data is controlled by the Big Tech
           companies, such as Google, Apple, etc. In the decentralized web, no
           single person/ company owns any data or information about anyone, and
           everything is visible to the public. Web3, also known as the
-          decentralized web, is the third and latest" phase” of the internet.
-          Web3 is built on peer-to-peer networks of computers that talk to each
-          other without middlemen.
+          decentralized web, is the third and latest &quot;phase&quot; of the
+          internet. Web3 is built on peer-to-peer networks of computers that
+          talk to each other without middlemen.
         </Text>
       </Box>
       <Box
@@ -73,12 +73,12 @@ export default function MainPageContent() {
         </Heading>
         <Text>
           A communal environment or virtual world made possible by the fusion of
-          physical and virtual reality is referred to as the "metaverse." Users
-          can engage in shared interactions with a wide range of virtual objects
-          and environments in this imagined networked virtual world. Various
-          technology businesses are aggressively pursuing the science fiction
-          idea of a metaverse in an effort to give users a seamless and
-          immersive experience.{" "}
+          physical and virtual reality is referred to as the
+          &quot;metaverse&quot;. Users can engage in shared interactions with a
+          wide range of virtual objects and environments in this imagined
+          networked virtual world. Various technology businesses are
+          aggressively pursuing the science fiction idea of a metaverse in an
+          effort to give users a seamless and immersive experience.
         </Text>
         <br />
         <Text>
@@ -208,7 +208,7 @@ export default function MainPageContent() {
             are marketed globally by the Panaverse DAO. You will also have the
             opportunity to offer your services at a rate of $50 per hour,
             providing a path to financial stability while contributing to the
-            growth of Pakistan's software exports.
+            growth of Pakistan&apos;s software exports.
           </Text>
         </Stack>
 

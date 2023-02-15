@@ -84,12 +84,14 @@ export default function Header() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Image
-              src="/images/panaverse-logo.webp"
-              alt="Panaverse Logo"
-              width="112"
-              height="64"
-            />
+            <Link href="/">
+              <Image
+                src="/images/panaverse-logo.webp"
+                alt="Panaverse Logo"
+                width="112"
+                height="64"
+              />
+            </Link>
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -127,7 +129,7 @@ export default function Header() {
             bg={"red.600"}
             href={"#"}
             _hover={{
-              bg: "red.400",
+              bg: "red.500",
             }}
           >
             Sign Up
@@ -266,7 +268,7 @@ const MobileNav = () => {
           bg={"red.600"}
           href={"#"}
           _hover={{
-            bg: "red.400",
+            bg: "red.500",
           }}
           width="150px"
         >

@@ -59,7 +59,10 @@ export default function Courses() {
 
           // templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
         >
-          <Card bgColor="gray.100">
+          <Card
+            bgColor="gray.100"
+            boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
+          >
             <CardHeader>
               <Heading size="sm">Quarter 1 (Core)</Heading>
             </CardHeader>
@@ -68,7 +71,10 @@ export default function Courses() {
               <Text>Object-Oriented Programming using TypeScript</Text>
             </CardBody>
           </Card>
-          <Card bgColor="gray.100">
+          <Card
+            bgColor="gray.100"
+            boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
+          >
             <CardHeader>
               <Heading size="sm">Quarter II (Core)</Heading>
             </CardHeader>
@@ -81,7 +87,10 @@ export default function Courses() {
               </Text>
             </CardBody>
           </Card>
-          <Card bgColor="gray.100">
+          <Card
+            bgColor="gray.100"
+            boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
+          >
             <CardHeader>
               <Heading size="sm">Quarter III (Core)</Heading>
             </CardHeader>
@@ -102,7 +111,14 @@ export default function Courses() {
         </Text>
 
         {/* ---------------1--------------- */}
-        <Box borderWidth="1px" borderColor="gray.300" mt="4" pb="2" rounded="6">
+        <Box
+          borderWidth="1px"
+          borderColor="gray.300"
+          mt="4"
+          pb="2"
+          rounded="6"
+          boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
+        >
           <SimpleGrid
             spacing={4}
             textAlign="center"
@@ -163,6 +179,7 @@ export default function Courses() {
           pb="2"
           rounded="6"
           mt="12"
+          boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
         >
           <SimpleGrid
             spacing={4}
@@ -221,6 +238,7 @@ export default function Courses() {
           pb="2"
           rounded="6"
           mt="12"
+          boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
         >
           <SimpleGrid
             spacing={4}
@@ -275,6 +293,7 @@ export default function Courses() {
           pb="2"
           rounded="6"
           mt="12"
+          boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
         >
           <SimpleGrid
             spacing={4}
@@ -333,6 +352,7 @@ export default function Courses() {
           pb="2"
           rounded="6"
           mt="12"
+          boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
         >
           <SimpleGrid
             spacing={4}
@@ -391,6 +411,7 @@ export default function Courses() {
           pb="2"
           rounded="6"
           mt="12"
+          boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
         >
           <SimpleGrid
             spacing={4}
@@ -465,7 +486,8 @@ export default function Courses() {
               href="https://content.techgig.com/hiring/top-5-metaverse-jobs-that-will-rule-the-future-of-tech-industry/articleshow/87581325.cms"
               target="_blank"
             >
-              Top 5 Metaverse jobs that will rule the future of tech industry
+              Top 5 &apos;Metaverse&apos; jobs that will rule the future of tech
+              industry
             </Link>
           </ListItem>
           <ListItem>
@@ -490,7 +512,7 @@ export default function Courses() {
               target="_blank"
             >
               The Metaverse, Blockchain Gaming, and NFTs: Navigating the
-              Internet's Uncharted Waters
+              Internet&apos;s Uncharted Waters
             </Link>
           </ListItem>
           <ListItem>
